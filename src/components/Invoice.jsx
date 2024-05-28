@@ -30,7 +30,7 @@ const Invoice = () => {
       </div>
       {cartdetail.map((product,index) => {
         return (
-          <div className=" w-1/2 flex  flex-col">
+          <div className=" w-1/2 flex  flex-col max-md:w-full">
           
             <hr></hr>
             <div className="my-4  flex justify-start  space-x-32 ">
