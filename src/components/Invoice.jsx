@@ -20,8 +20,8 @@ const Invoice = () => {
      return cartdetail.reduce((total, item) => total + item.price * item.qty, 0);
    };
   return (
-    <div className="bg-blue-400 max-w-[1100px]   mx-auto shadow-lg p-20 
-    mt-20 text-nowrap max-md:p-10">
+    <div className="bg-blue-400 max-w-full   mx-auto shadow-lg p-20 
+    mt-20 text-nowrap max-md:p-5">
       <div className="">
         <h1 className="text-4xl  mt-5 mb-10 font-bold text-white underline underline-offset-8
          tracking-widest">
